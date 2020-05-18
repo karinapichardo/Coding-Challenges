@@ -9,11 +9,11 @@ squaresSum(3) ➞ 14
 */
 
 function squaresSum(n) {
-	var total = 0;
-	for (var i = 1; i <= n; i++) {
-		total += i ** 2;
-	}
-	return total;
+  var total = 0;
+  for (var i = 1; i <= n; i++) {
+	total += i ** 2;
+  }
+  return total;
 }
 
 // testing my function
