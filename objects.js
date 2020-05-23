@@ -15,7 +15,7 @@ function extend(obj1, obj2) {
   }
 }
  
-// testing my function to make sure it works properly 
+// testing function to make sure it works properly 
 
 var obj1 = {
   a: 1,
