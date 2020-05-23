@@ -14,9 +14,10 @@ function removeArrayValues(obj) {
 
 var obj = {
   a: [1, 3, 4],
-  b: 2,
+  b: 'I LOVE JS',
   c: ['hi', 'there']
 }
 
+
 removeArrayValues(obj);
-console.log(obj); // --> { b: 2 }
+console.log(obj); // --> { b: 'I LOVE JS' }
