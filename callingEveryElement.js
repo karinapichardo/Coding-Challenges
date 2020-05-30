@@ -4,7 +4,7 @@ by the amount of values in the given array.
 */
 
 function multiplyByLength(arr) {
-	return arr.map(i => i * arr.length);
+  return arr.map(i => i * arr.length);
 }
 
 // testing function
