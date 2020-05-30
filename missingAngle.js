@@ -7,7 +7,7 @@ An obtuse angle is greater than 90 degrees (but less than 180 degrees).
 */
 
 function missingAngle(angle1, angle2) {
-	return (angle1 + angle2 === 90) ? 'right'
+  return (angle1 + angle2 === 90) ? 'right'
        : (angle1 + angle2 > 90) ? 'acute'
        : (angle1 + angle2 < 90) ? 'obtuse'
        : null;
