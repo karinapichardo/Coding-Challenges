@@ -3,8 +3,8 @@ the characters a and c (in that order) with any number of b characters
 (including zero) between them. */
 
 function asterisk(string) {
-	var regex = RegExp('ab*c', 'g');
-	return regex.test(string);
+  var regex = RegExp('ab*c', 'g');
+  return regex.test(string);
 }
 
 // testing function
