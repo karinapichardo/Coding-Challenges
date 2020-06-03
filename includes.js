@@ -9,7 +9,7 @@ isSafeBridge("#") ➞ true
 */
 
 function isSafeBridge(str){
-  return !str.includes(' ')
+  return !str.includes(' ');
 }
 
 // testing function
