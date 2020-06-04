@@ -4,11 +4,11 @@ and return the first and last elements as a new array.
 */
 
 function firstLast(arr) {
-	var firstAndLast = [];
-	var first = arr.shift();
-	var last = arr.pop();
-	firstAndLast.push(first, last);
-	return firstAndLast;
+    var firstAndLast = [];
+    var first = arr.shift();
+    var last = arr.pop();
+    firstAndLast.push(first, last);
+    return firstAndLast;
 }
 
 // testing function
