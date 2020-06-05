@@ -12,9 +12,9 @@ Make a function using the && operator.
 */
 
 function and(a, b) {
-	return (a === true && b === false) ? false
+    return (a === true && b === false) ? false
          : (a === true || a === false) ? a
-	     : (b === true || b === false) ? b
+	 : (b === true || b === false) ? b
          : null;
 }
 
