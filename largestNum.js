@@ -4,7 +4,7 @@ Return the largest number in the array.
 */
 
 function findLargestNum(arr) {
-	return Math.max.apply(null, arr);
+    return Math.max.apply(null, arr);
 }
 
 //testing function
