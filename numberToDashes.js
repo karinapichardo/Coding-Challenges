@@ -4,8 +4,8 @@ and returns a corresponding string of hyphens.
 */
 
 function Go(num) {
-	var hyphenString = "-";
-	return hyphenString.repeat(num);
+   var hyphenString = "-";
+   return hyphenString.repeat(num);
 }
 
 // testing function
