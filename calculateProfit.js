@@ -6,10 +6,10 @@ Assume all of the inventory has been sold.
 */
 
 function profit(info) {
-	var totalSales = info.sellPrice * info.inventory;
-	var totalCost = info.costPrice * info.inventory;
-	var profit = totalSales - totalCost;
-	return Math.round(profit);
+  var totalSales = info.sellPrice * info.inventory;
+  var totalCost = info.costPrice * info.inventory;
+  var profit = totalSales - totalCost;
+  return Math.round(profit);
 }
 
 // testing function
