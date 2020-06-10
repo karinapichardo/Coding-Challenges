@@ -2,7 +2,7 @@
 Create a function that returns an array of additive inverses. */
 
 function additiveInverse(arr) {
-	return arr.map(x => x * -1);
+  return arr.map(x => x * -1);
 }
 
 // testing function
