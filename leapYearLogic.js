@@ -4,7 +4,7 @@ Given a year you must implement a function
 that returns true if it's a leap year, or false if it's not. */
 
 function isLeap(year) {
-	return year % 400 === 0 || year % 4 === 0 && year % 100 !== 0;
+  return year % 400 === 0 || year % 4 === 0 && year % 100 !== 0;
 }
 
 // testing function 
