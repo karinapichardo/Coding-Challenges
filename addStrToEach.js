@@ -1,7 +1,7 @@
 // create a function that adds a string ending to each member in an array.
 
 function addEnding(arr, ending) {
-	return arr.map(x => x.concat(ending));
+  return arr.map(x => x.concat(ending));
 }
 
 // testing function
