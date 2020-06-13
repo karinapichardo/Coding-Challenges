@@ -8,13 +8,13 @@ Given an array of strings, return the time (in seconds) it took to shoot down al
 */
 
 function rogerShots(arr) {
-	var correctBang = [];
-	for (var i = 0; i < arr.length; i++) {
-		if (arr[i] === "Bang!" || arr[i] === "BangBang!") {
-			correctBang.push(arr[i]);
-		}
-	}
-	return correctBang.length * 0.5;
+   var correctBang = [];
+   for (var i = 0; i < arr.length; i++) {
+       if (arr[i] === "Bang!" || arr[i] === "BangBang!") {
+	  correctBang.push(arr[i]);
+       }
+   }
+   return correctBang.length * 0.5;
 }
 
 // testing function 
