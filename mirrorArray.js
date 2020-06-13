@@ -1,11 +1,11 @@
 // Given an array, transform that array into a mirror.
 
 function mirror(arr) {
-	var mirrorArr = [];
-	for (var i = 0; i < arr.length - 1; i++) {
-		mirrorArr.push(arr[i]);
-	}
-	return mirrorArr.concat(arr.reverse());
+   var mirrorArr = [];
+   for (var i = 0; i < arr.length - 1; i++) {
+       mirrorArr.push(arr[i]);
+   }
+   return mirrorArr.concat(arr.reverse());
 }
 
 // testing function 
