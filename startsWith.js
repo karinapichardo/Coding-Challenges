@@ -2,7 +2,7 @@
 that begin with the capital letter "C". Remove the unaccepted words and return the new array. */
 
 function acceptedWords(arr) {
-	return arr.filter(x => x.startsWith('C') === false);
+  return arr.filter(x => x.startsWith('C') === false);
 }
 
 // testing function
