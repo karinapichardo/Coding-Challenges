@@ -7,6 +7,13 @@ function nameShuffle(str) {
     return str.split(' ').reverse().join(' ');
 }
 
+/* another way to solve the same problem:
+function nameShuffle(str) {
+	var firstName = str.split(' ').slice(0, -1).join(' '); 
+	var lastName = str.split(' ').slice(-1).join(' '); 
+	return lastName + " " + firstName;
+} */
+
 // testing function
 console.log(nameShuffle("Karina Austin")) // --> "Austin Karina"
 console.log(nameShuffle("Rosie O'Donnel")) // --> ,"O'Donnel Rosie"
