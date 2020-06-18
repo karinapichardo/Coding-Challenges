@@ -4,8 +4,8 @@ returns a string with the given number of "a"s in Edabit.
 */
 
 function howManyTimes(num) {
-	var repeatedA = 'a';
-	return 'Ed' + repeatedA.repeat(num) + 'bit';
+  var repeatedA = 'a';
+  return 'Ed' + repeatedA.repeat(num) + 'bit';
 }
 
 
