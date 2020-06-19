@@ -4,11 +4,11 @@ and returns an array of numbers counting down from this number to zero.
 */
 
 function countdown(start) {
-	var arrCountDown = [];
-	for (var i = 0; i <= start; i++) {
-		arrCountDown.push(i);
-	}
-	return arrCountDown.reverse();
+  var arrCountDown = [];
+  for (var i = 0; i <= start; i++) {
+      arrCountDown.push(i);
+  }
+  return arrCountDown.reverse();
 }
 
 // testing function
