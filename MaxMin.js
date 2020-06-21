@@ -4,7 +4,7 @@ between the biggest and smallest numbers.
 */
 
 function diffMaxMin(arr) {
-	return Math.max(...arr) - Math.min(...arr)
+   return Math.max(...arr) - Math.min(...arr);
 }
 
 // testing function
