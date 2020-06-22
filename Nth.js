@@ -4,11 +4,11 @@ then return what year it would be after n-months has elapsed.
 */
 
 function afterNMonths(year, months) {
-	if (year === undefined) {
-		return 'year missing';
-	} else if (months === undefined) {
-    return 'month missing';
-  } 
+   if (year === undefined) {
+       return 'year missing';
+   } else if (months === undefined) {
+   return 'month missing';
+ } 
 var monthsToYears = months / 12;
 return Math.floor(year + monthsToYears);
 }
