@@ -2,7 +2,7 @@
 array which contains words that start with the same letters as the initial word. */
 
 function dictionary(initial, words) {
-	return words.filter(x => x.startsWith(initial));
+   return words.filter(x => x.startsWith(initial));
 }
 
 // testing function
