@@ -7,7 +7,7 @@ firstAndLast(string) ➞ [first, last]
 */
 
 function firstAndLast(str) {
-	var sortedString = str.split('').sort().join('');
+  var sortedString = str.split('').sort().join('');
   var reversedString = sortedString.split('').reverse().join('');
 
   return [sortedString, reversedString];
