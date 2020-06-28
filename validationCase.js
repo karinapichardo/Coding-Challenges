@@ -2,7 +2,7 @@
 only uppercase or only lowercase letters. */
 
 function sameCase(str) {
-	return str === str.toUpperCase() || str === str.toLowerCase();
+  return str === str.toUpperCase() || str === str.toLowerCase();
 }
 
 
