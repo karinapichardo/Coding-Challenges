@@ -4,16 +4,16 @@ digit at a time and appending true into the array if the
 digit is 1 and false otherwise.
 */
 function integerBoolean(n) {
-	var booleanArr = [];
+   var booleanArr = [];
 
-	for (var i = 0; i < n.length; i++) {
-		if (n[i] === '1') {
-			booleanArr.push(true);
-		} else if (n[i] === '0') {
+   for (var i = 0; i < n.length; i++) {
+       if (n[i] === '1') {
+	   booleanArr.push(true);
+       } else if (n[i] === '0') {
      booleanArr.push(false);
   }
-		}
-	return booleanArr;
+}
+  return booleanArr;
 }
 
 console.log(integerBoolean("100101")) // --> [true, false, false, true, false, true]
