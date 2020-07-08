@@ -6,10 +6,10 @@ Return the result in an array.
 */
 
 function repeat(item, times) {
-	var repeatedArr = [];
-	for (var i = 0; i < times; i++) {
-		repeatedArr.push(item);
-	}
+    var repeatedArr = [];
+    for (var i = 0; i < times; i++) {
+	repeatedArr.push(item);
+    }
 	return repeatedArr;
 }
 
