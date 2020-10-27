@@ -4,7 +4,7 @@ half of the number, quarter of the number and an eighth of the number.
 */
 
 function halfQuarterEighth(n) {
-    return [n / 2, n / 4, n / 8];
+	return [n / 2, n / 4, n / 8];
 }
 
 //testing function to make sure it works
